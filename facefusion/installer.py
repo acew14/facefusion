@@ -24,6 +24,8 @@ else:
 if is_linux():
 	ONNXRUNTIMES['rocm-5.4.2'] = ('onnxruntime-rocm', '1.16.3')
 	ONNXRUNTIMES['rocm-5.6'] = ('onnxruntime-rocm', '1.16.3')
+	ONNXRUNTIMES['rocm-5.7'] = ('onnxruntime-rocm', '1.17.3')
+	ONNXRUNTIMES['rocm-6.0'] = ('onnxruntime-rocm', '1.17.3')
 if is_windows():
 	ONNXRUNTIMES['directml'] = ('onnxruntime-directml', '1.17.3')
 
